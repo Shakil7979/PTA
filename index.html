@@ -44,34 +44,106 @@
          <div class="main-form-arae">
           <div class="left-side-form">
               <form action="#">
-                <div class="form-box">
+                <div class="form-box form-box-mb">
                     <div class="form-content">
                       <h4>Select a Membership Plan</h4>
 
                       <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
                         <li class="nav-item" role="presentation">
-                          <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Home</button>
+                          <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Annually <span class="save_up">Save up to 20%</span></button>
                         </li>
                         <li class="nav-item" role="presentation">
-                          <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Profile</button>
-                        </li>
-                        <li class="nav-item" role="presentation">
-                          <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Contact</button>
-                        </li>
+                          <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Monthly</button>
+                        </li> 
                       </ul>
                       <div class="tab-content" id="pills-tabContent">
-                        <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">...</div>
-                        <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">...</div>
-                        <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">...</div>
+                        <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                          <div class="content-box">
+                            <h4> <img src="assets/images/award.svg" alt=""> &nbsp;Subscription Packages</h4>
+                            <!-- radio box  -->
+                            <div class="radio-item mb-16">
+                              <label>
+                                <input type="radio" name="radio"/>
+                                <span><p class="radio-text">Mobile Plan $99 Per Year <p class="radio-short">15% off on annual subscription</p></p> </span>
+                              </label>
+                            </div>
+                            <div class="radio-item">
+                              <label>
+                                <input type="radio" name="radio"/>
+                                <span><p class="radio-text">Entrprise Package <p class="radio-short">20% off on annual subscription</p></p> </span>
+                              </label>
+                            </div>
+                            <!-- radio box  -->
+                          </div>
+                        </div>
+                        <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab"></div>
+                        
+                        <div class="form-checkbox">
+                          <input type="checkbox" name="" id="check1"><label for="check1">Coupon Code</label>
+                        </div> 
                       </div>
                       
                     </div>
                 </div>
+                <div class="form-box">
+                  <div class="form-content">
+                    <h4>Select a Payment Method</h4> 
+                    <div class="box-title">
+                      <h3>Mobile Plan</h3>
+                      <p>Free for the first 7 days, then $67.00 for each month</p>
+                    </div>
+                    <div class="radio-area-box">
+                      <!-- radio box  -->
+                      <div class="radio-item2">
+                        <label for="paypal">
+                          <span>
+                            <input type="radio" name="radio2" id="paypal"/>
+                            <p>Paypal</p>
+                          </span>
+                          <img src="assets/images/ic_paypal.svg" alt="">
+                        </label>
+                      </div>
+                      <div class="radio-item2">
+                        <label for="credit">
+                          <span>
+                            <input type="radio" id="credit" name="radio2"/>
+                            <p>Creadit Card</p>
+                          </span>
+                            <img class="credit-img" src="assets/images/credit.svg" alt="">
+                        </label>
+                      </div>
+                      <!-- radio box  -->
+                    </div>
+                    <div class="submit-btn">
+                      <button type="submit">Play Now</button>
+                    </div>
+                  </div>
+              </div>
               </form>
           </div>
           <div class="right-side-form">
-
+              <div class="right-side-box">
+                <h3 class="rigt-title">Here's What You'll Receive:</h3>
+                <ul class="right-check">
+                  <li><img src="assets/images/check.svg" alt="">&nbsp;Enjoy Hassle Free instlation</li>
+                  <li><img src="assets/images/check.svg" alt="">&nbsp;easy Online business management</li>
+                  <li><img src="assets/images/check.svg" alt="">&nbsp;Quick Setup and easy maintenance</li>
+                  <li><img src="assets/images/check.svg" alt="">&nbsp;cross platform Presence</li>
+                  <li><img src="assets/images/check.svg" alt="">&nbsp;24/7 Support</li>
+                </ul>
+                <h3>Having Problems?</h3>
+                <h3>Need Help with Joining?</h3>
+                <div class="support-btn">
+                  <button type="button">Contact support Team</button>
+                </div>
+              </div>
+              <div class="setting-img">
+                <img src="assets/images/setting.svg" alt="">
+              </div>
           </div>
+         </div>
+         <div class="footer-text">
+          <p>Copyright 2023 - Path To Arabic - All Rights Reserved</p>
          </div>
       </div>
     </main>
