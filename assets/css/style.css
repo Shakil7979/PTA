@@ -104,11 +104,11 @@ img{
 .main-form-arae {
 	display: flex;
 	justify-content: space-between;
-  gap: 39px;
+  /* gap: 39px; */
 }
 
 .left-side-form {
-	flex: 0 0 819px;
+	flex: 0 0 59%;
 }
 
 .form-content h4 {
@@ -121,7 +121,7 @@ img{
 }
 
 .right-side-form {
-	flex: 0 0 342px;
+	flex: 0 0 39%;
 }
 
 #pills-profile-tab {
@@ -232,6 +232,7 @@ img{
 
 .form-checkbox {
 	margin-top: 24px;
+	margin-left: 9px;
 }
 
 .form-checkbox label {
@@ -297,8 +298,12 @@ img{
 
 .radio-item label span {
 	display: flex;
-	align-items: center;
+	/* align-items: center; */
 	gap: 10px;
+}
+
+.form-checkbox input[type="checkbox"] {
+  background: #D8DEEE;    
 }
 
 .submit-btn button {
@@ -359,6 +364,9 @@ img{
 	text-transform: capitalize;
 	color: #212B36;
 	margin-bottom: 16px;
+	display: flex;
+	align-items: center;
+	gap: 10px;
 }
 
 .support-btn button {

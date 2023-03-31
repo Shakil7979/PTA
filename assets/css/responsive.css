@@ -1,0 +1,65 @@
+@media all and (max-width:991px){
+    /* .main-form-arae { 
+        flex-direction: column;
+    } */
+
+    .logo {
+        margin-bottom: 20px;
+    }
+    .header-area {
+        margin-top: 34px;
+    }
+    .left-side-form {
+        flex: 0 0 57%;
+    }
+    .right-side-form {
+        flex: 0 0 37%;
+    }
+    .radio-item label span { 
+        flex-direction: column; 
+    } 
+    .radio-item label { 
+        align-items: first baseline; 
+    }
+    .footer-text p { 
+        margin: 40px 0 20px 0; 
+    }
+}
+
+@media all and (max-width:767px){
+    .main-form-arae { 
+        flex-direction: column;
+    }
+
+    .form-box-mb {
+        margin-bottom: 20px;
+    }
+    .right-side-form { 
+        margin-top: 20px;
+    }
+    .radio-item2 {
+        margin-top: 15px; 
+    }
+}
+
+@media all and (max-width:576px){
+    .radio-item2 label .credit-img {
+        width: 111px;
+    }
+    .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+ 
+        padding: 10px 10px; 
+        font-size: 14px; 
+    }
+    #pills-profile-tab {
+        padding: 11px 11px;
+        font-size: 14px;
+    }
+
+    .right-side-box h3 { 
+        font-size: 16px; 
+    }
+    .footer-text p { 
+        font-size: 12px; 
+    }
+}
