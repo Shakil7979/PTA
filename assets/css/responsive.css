@@ -43,6 +43,9 @@
     .right-check {
         margin: 20px 0 20px 0;
     }
+    .container {
+        padding: 0 20px;
+    }
 }
 
 @media all and (max-width:576px){
