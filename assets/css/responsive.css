@@ -40,6 +40,9 @@
     .radio-item2 {
         margin-top: 15px; 
     }
+    .right-check {
+        margin: 20px 0 20px 0;
+    }
 }
 
 @media all and (max-width:576px){
