@@ -152,16 +152,21 @@ img{
 }
 
 .save_up {
-	background: #FFFFFF;
 	border-radius: 6px;
 	padding: 4px 8px;
 	font-style: normal;
 	font-weight: 500;
 	font-size: 12px;
 	line-height: 12px;
-	color: #2895FF;
 	font-family: 'Poppins', sans-serif;
 	margin-left: 5px;
+	color: #ffff;
+	background: #2895FF;
+}
+
+.nav-pills .nav-link.active .save_up { 
+	color: #2895FF;
+	background: #FFFFFF;
 }
 
 #pills-tab {
@@ -231,8 +236,7 @@ img{
 }
 
 
-.form-checkbox {
-	margin-top: 24px;
+.form-checkbox { 
 	margin-left: 9px;
 }
 
@@ -409,4 +413,58 @@ img{
 	color: #717E95;
 	margin: 98px 0 52px 0;
 	text-align: center;
+}
+
+.coupon-field input {
+	border: 1px solid rgba(145, 158, 171, 0.32);
+	border-radius: 8px;
+	width: 264px;
+	/* height: 46px; */
+	padding: 10px;
+}
+.coupon-field p {
+	position: absolute;
+	top: 20px;
+}
+
+.coupon-field p {
+	position: absolute;
+	top: -11px;
+	left: 16px;
+	background: #fff;
+	padding: 0 5px;
+}
+
+.coupon-box{
+	margin-top: 24px;
+}
+
+.coupon-field {
+	position: relative;
+}
+
+.coupon-box {
+	display: flex;
+	align-items: center;
+	gap: 25px;
+	height: 46px;
+}
+
+.coupon-field button {
+	padding: 13px 29px;
+	background: #2895FF;
+	border-radius: 6px;
+	border: none;
+	color: #FFFFFF;
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 12px;
+	position: absolute;
+	right: 4px; 
+	top: 4px;
+}
+
+.nav-pills .nav-link.active .nav-link .save_up{
+	background: #2895FF;
+	color: #fff;
 }

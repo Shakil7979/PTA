@@ -80,9 +80,19 @@
                         </div>
                         <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab"></div>
                         
-                        <div class="form-checkbox">
-                          <input type="checkbox" name="" id="check1"><label for="check1">Coupon Code</label>
+                        <div class="coupon-box">
+                          <div class="form-checkbox">
+                            <!-- <input type="checkbox" name="" id="check1"><label for="check1">Coupon Code</label> -->
+                            <input id="remember" name="remember" type="checkbox" onclick="validate()" />
+                            <label for="remember" id="check_label">Coupon Code</label>
+                          </div>
+                          <div class="coupon-field">
+                            <p>Coupon</p>
+                            <input type="text" name="" id="">
+                            <button>Apply</button>
+                          </div>
                         </div> 
+                        
                       </div>
                       
                     </div>
