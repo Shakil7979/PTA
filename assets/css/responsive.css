@@ -55,8 +55,8 @@
     }
     .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
  
-        padding: 10px 10px; 
-        font-size: 14px; 
+        /* padding: 10px 10px;  */
+        /* font-size: 14px;  */
     }
     #pills-profile-tab {
         padding: 11px 11px;
